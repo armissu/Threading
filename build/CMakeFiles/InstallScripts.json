@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Git/Threading/build/cmake_install.cmake",
+		"D:/Git/Threading/build/external/cmake_install.cmake",
+		"D:/Git/Threading/build/external/googletest/cmake_install.cmake",
+		"D:/Git/Threading/build/external/googletest/googlemock/cmake_install.cmake",
+		"D:/Git/Threading/build/external/googletest/googletest/cmake_install.cmake",
+		"D:/Git/Threading/build/testing/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

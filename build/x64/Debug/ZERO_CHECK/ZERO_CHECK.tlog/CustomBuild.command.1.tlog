@@ -1,0 +1,10 @@
+^D:\GIT\THREADING\BUILD\CMAKEFILES\1B60000910191C1780CEB73939C0F21B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Git/Threading -BD:/Git/Threading/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Git/Threading/build/example.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

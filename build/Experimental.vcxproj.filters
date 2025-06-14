@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Git\Threading\build\CMakeFiles\1b60000910191c1780ceb73939c0f21b\Experimental.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Git\Threading\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Git\Threading\build\CMakeFiles\Experimental" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EB36A77C-80F5-38CC-8E79-9481CFEE4636}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

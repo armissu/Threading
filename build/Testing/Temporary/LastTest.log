@@ -1,0 +1,66 @@
+Start testing: Jun 14 12:28 GMT Summer Time
+----------------------------------------------------------
+2/2 Testing: Test_1.AddTestFAIL
+2/2 Test: Test_1.AddTestFAIL
+Command: "D:/Git/Threading/build/Testing/Debug/my_test.exe" "--gtest_filter=Test_1.AddTestFAIL" "--gtest_also_run_disabled_tests"
+Directory: D:/Git/Threading/build/testing
+"Test_1.AddTestFAIL" start time: Jun 14 12:28 GMT Summer Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Git\Threading\external\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = Test_1.AddTestFAIL
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Test_1
+[ RUN      ] Test_1.AddTestFAIL
+D:\Git\Threading\testing\unit_tests/test_1.h(20): error: Expected equality of these values:
+  tests::add_test(1,2)
+    Which is: 3
+  4
+
+[  FAILED  ] Test_1.AddTestFAIL (0 ms)
+[----------] 1 test from Test_1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] Test_1.AddTestFAIL
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"Test_1.AddTestFAIL" end time: Jun 14 12:28 GMT Summer Time
+"Test_1.AddTestFAIL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+1/2 Testing: Test_1.AddTest
+1/2 Test: Test_1.AddTest
+Command: "D:/Git/Threading/build/Testing/Debug/my_test.exe" "--gtest_filter=Test_1.AddTest" "--gtest_also_run_disabled_tests"
+Directory: D:/Git/Threading/build/testing
+"Test_1.AddTest" start time: Jun 14 12:28 GMT Summer Time
+Output:
+----------------------------------------------------------
+Running main() from D:\Git\Threading\external\googletest\googletest\src\gtest_main.cc
+Note: Google Test filter = Test_1.AddTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Test_1
+[ RUN      ] Test_1.AddTest
+[       OK ] Test_1.AddTest (0 ms)
+[----------] 1 test from Test_1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Test_1.AddTest" end time: Jun 14 12:28 GMT Summer Time
+"Test_1.AddTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 14 12:28 GMT Summer Time

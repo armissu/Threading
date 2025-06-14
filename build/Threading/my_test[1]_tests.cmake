@@ -1,0 +1,5 @@
+add_test([=[Test_1.AddTest]=]  D:/Git/Threading/build/Threading/Debug/my_test.exe [==[--gtest_filter=Test_1.AddTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Test_1.AddTest]=]  PROPERTIES WORKING_DIRECTORY D:/Git/Threading/build/Threading SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[Test_1.AddTestFAIL]=]  D:/Git/Threading/build/Threading/Debug/my_test.exe [==[--gtest_filter=Test_1.AddTestFAIL]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Test_1.AddTestFAIL]=]  PROPERTIES WORKING_DIRECTORY D:/Git/Threading/build/Threading SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  my_test_TESTS Test_1.AddTest Test_1.AddTestFAIL)
